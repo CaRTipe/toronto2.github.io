@@ -1,3 +1,8 @@
 .collapse navbar-collapse, img {
     border-radius: 50%;
 }
+.image3 {
+    position: absolute;
+    left: 70%;
+    top: 8%;
+}
