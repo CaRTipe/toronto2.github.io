@@ -2,6 +2,10 @@
 img {
   border-radius: 50%;
 }
+.image3 img {
+    width: 500px;
+    height: 500px;
+}
 .social-media-links {
     display: flex;
     flex-direction: row-reverse;
@@ -14,6 +18,10 @@ img {
   gap: 30px;
   align-items: center;
   justify-content: end;
+}
+.youtube img {
+    width: 100px;
+    height: 39px;
 }
 .one {
   font-family: "Courier New", Courier, monospace;
@@ -48,8 +56,16 @@ nav {
   #one {
     font-size: 15px;
   }
+  .image3 img {
+    width: 430px;
+    height: 430px;
+  }
   .one h2, h1, p{
     text-align: center;
+  }
+  .youtube img {
+    width: 90px;
+    height: 39px;
   }
   
 }
