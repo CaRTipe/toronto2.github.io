@@ -1,16 +1,55 @@
-.collapse navbar-collapse, img {
-    border-radius: 50%;
-}
-.image3 {
-    position: absolute;
-    left: 90%;
+.collapse navbar-collapse,
+img {
+  border-radius: 50%;
 }
 .social-media-links {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.insta {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: end;
+}
+.one {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+nav {
+    position: relative;
+}
+#body {
+    display: flex;
     flex-direction: row;
-    gap: 30px;
-    align-items: center;    
-    position: absolute;
-    top: 90%;
-    left: 10%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    margin-bottom: 50px;
+}
+
+/* Small-Screen Phones.... */
+@media (max-width: 576px) {
+  nav {
+    position: relative;
+  }
+  #body {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+  }
+  #one {
+    font-size: 15px;
+  }
+  .one h2, h1, p{
+    text-align: center;
+  }
+  
 }
