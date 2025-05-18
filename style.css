@@ -60,6 +60,12 @@ nav {
     width: 430px;
     height: 430px;
   }
+  .social-media-links {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
   .one h2, h1, p{
     text-align: center;
   }
