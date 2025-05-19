@@ -50,7 +50,7 @@
               <a class="nav-link mx-5" href="#">Shoots</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-5" href="#">Contact</a>
+              <a class="nav-link mx-5" href="#contact" id="modalc">Contact</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -83,10 +83,7 @@
       </div>
 
       <div class="image3">
-        <img
-          src="./assets/images/image3.jpg"
-          alt=""
-        />
+        <img src="./assets/images/image3.jpg" alt="" />
       </div>
     </div>
     <div class="social-media-links">
@@ -115,13 +112,55 @@
       </div>
       <div class="youtube">
         <a href="https://www.youtube.com/@blairthestylist" target="_blank"
-          ><img
-            src="./assets/images/youtube.png"
-            alt="youtube"
+          ><img src="./assets/images/youtube.png" alt="youtube"
         /></a>
+        <a href=""><img src="./assets/images/whatsapp.png" alt="whatsapp">+254116850103</a>
       </div>
     </div>
+    <div class="contact" id="contact">
+      <div>
+        <h1>Contact me</h1>
+      </div>
+      <form class="form">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="John"
+          />
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput2"
+            placeholder="name@example.com"
+            
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Message</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div>
+          <button class="btn btn-secondary" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
 
+    <script src="./script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
