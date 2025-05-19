@@ -55,11 +55,17 @@ nav {
   flex-direction: column;
   gap: 15px;
 }
-
+.youtube {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
 .youtube a {
   text-decoration: none;
   color: grey;
 }
+
 /* Small-Screen Phones.... */
 @media (max-width: 576px) {
   nav {
