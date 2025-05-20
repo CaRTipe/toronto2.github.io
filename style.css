@@ -65,6 +65,21 @@ nav {
   text-decoration: none;
   color: grey;
 }
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image button {
+  width: 500px;
+  height: 100px;
+}
+.image img{
+  width: 400px;
+  height: 400px;
+}
 
 /* Small-Screen Phones.... */
 @media (max-width: 576px) {
