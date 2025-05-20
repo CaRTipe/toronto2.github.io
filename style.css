@@ -10,11 +10,11 @@ img {
   height: 500px;
 }
 .social-media-links {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
 .insta {
   display: flex;
@@ -24,8 +24,8 @@ img {
   justify-content: end;
 }
 .youtube img {
-    width: 39px;
-    height: 39px;
+  width: 39px;
+  height: 39px;
 }
 .one {
   font-family: "Courier New", Courier, monospace;
@@ -34,15 +34,15 @@ img {
   font-size: 30px;
 }
 nav {
-    position: relative;
+  position: relative;
 }
 #body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 300px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+  margin-bottom: 50px;
 }
 .contact {
   display: flex;
@@ -76,7 +76,7 @@ nav {
   width: 500px;
   height: 100px;
 }
-.image img{
+.image img {
   width: 400px;
   height: 400px;
 }
@@ -91,7 +91,6 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 100px;
-
   }
   #one {
     font-size: 15px;
@@ -106,19 +105,25 @@ nav {
     justify-content: space-around;
     align-items: center;
   }
-  .one h2, h1, p{
+  .one h2,
+  h1,
+  p {
     text-align: center;
   }
   .youtube img {
     width: 39px;
     height: 39px;
   }
- 
+
   .image {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 1%;
+    left: 10%;
   }
-  
+
+  .image button {
+    width: 450px;
+    height: 100px;
+  }
 }
