@@ -113,5 +113,10 @@ nav {
     width: 39px;
     height: 39px;
   }
+ 
+  .image {
+    display: flex;
+    flex-direction: column;
+  }
   
 }
