@@ -114,6 +114,11 @@ nav {
     width: 39px;
     height: 39px;
   }
+  .contact {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+  }
 
   .image {
     display: flex;
@@ -127,4 +132,5 @@ nav {
     width: 450px;
     height: 100px;
   }
+
 }
