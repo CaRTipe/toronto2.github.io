@@ -82,6 +82,30 @@ nav {
   width: 400px;
   height: 400px;
 }
+#minimalist:hover {
+  cursor: pointer;
+  size: 200px;
+}
+#streetwear:hover {
+  cursor: pointer;
+  size: 200px;
+}
+#grunge:hover {
+  cursor: pointer;
+  size: 200px;
+}
+#preppy:hover {
+  cursor: pointer;
+  size: 200px;
+}
+#y2k:hover {
+  cursor: pointer;
+  size: 200px;
+}
+#soft:hover {
+  cursor: pointer;
+  size: 200px;
+}
 
 /* Small-Screen Phones.... */
 @media (max-width: 576px) {
