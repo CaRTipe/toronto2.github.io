@@ -114,15 +114,17 @@ nav {
   min-width: 100%;
   min-height: 100%;
 }
-.welcome {
+#welcome {
   position: absolute;
-  top: 20%;
-  left: 10%;
+  top: 35%;
+  left: 34%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: black;
   font-size: 40px;
   font-weight: bold;
+  background-color: transparent;
+  border: none;
 }
 
 /* Small-Screen Phones.... */
