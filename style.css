@@ -82,6 +82,10 @@ nav {
   width: 400px;
   height: 400px;
 }
+.insta img:hover {
+  width: 50px;
+  height: 50px;
+}
 #minimalist:hover {
   cursor: pointer;
   size: 200px;
