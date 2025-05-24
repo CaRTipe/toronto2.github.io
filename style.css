@@ -106,6 +106,24 @@ nav {
   cursor: pointer;
   size: 200px;
 }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 6%;
+  min-width: 100%;
+  min-height: 100%;
+}
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
 
 /* Small-Screen Phones.... */
 @media (max-width: 576px) {
