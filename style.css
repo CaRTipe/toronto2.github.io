@@ -33,14 +33,7 @@ img {
   font-weight: bold;
   font-size: 30px;
 }
-#body {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 300px;
-  margin-bottom: 50px;
-}
+
 .contact {
   display: flex;
   flex-direction: column;
