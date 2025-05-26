@@ -118,6 +118,9 @@ nav {
   min-width: 100%;
   min-height: 100%;
 }
+video {
+  position: fixed;
+}
 #welcome {
   position: absolute;
   top: 35%;
@@ -129,6 +132,14 @@ nav {
   font-weight: bold;
   background-color: transparent;
   border: none;
+}
+#welcome h1 {
+  text-align: left; 
+  font-size: 160px;
+}
+#welcome p {
+  font-size: 30px;
+  text-align: left;
 }
 
 /* Small-Screen Phones.... */
@@ -186,5 +197,18 @@ nav {
     display: flex;
     flex-direction: column;
   }
-
+  #welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    gap: 200px;
+  }
+  #welcome h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+ #welcome p {
+  font-size: 15px;
+  text-align: center;
+ }
 }
