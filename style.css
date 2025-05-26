@@ -33,7 +33,14 @@ img {
   font-weight: bold;
   font-size: 30px;
 }
-
+#body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+  margin-bottom: 50px;
+}
 .contact {
   display: flex;
   flex-direction: column;
@@ -134,9 +141,6 @@ video {
 
 /* Small-Screen Phones.... */
 @media (max-width: 576px) {
-  nav {
-    position: relative;
-  }
   #body {
     font-size: 10px;
     display: flex;
