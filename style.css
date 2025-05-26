@@ -33,9 +33,6 @@ img {
   font-weight: bold;
   font-size: 30px;
 }
-nav {
-  position: relative;
-}
 #body {
   display: flex;
   flex-direction: row;
