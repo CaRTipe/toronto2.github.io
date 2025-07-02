@@ -15,6 +15,32 @@
     #navbarNav {
         justify-content: center !important;
     }
+
+    #story {
+        border: 1px solid #000;
+    }
+
+    #lookbook {
+        border: 1px solid #000;
+    }
+
+    #flicks {
+        border: 1px solid #000;
+    }
+
+    #story,
+    #lookbook,
+    #flicks {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #story,
+    #lookbook,
+    #flicks h2:hover {
+        cursor: pointer;
+    }
 </style>
 
 <body>
@@ -54,7 +80,29 @@
             </div>
         </div>
     </nav>
-    
+    <div class="container-fluid mb-5" id="portfolio">
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+                <h1>Welcome to My Portfolio</h1>
+                <p class="lead">Explore my work and connect with me!</p>
+            </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4" id="story">
+                <h2>My Story</h2>
+                <p>Learn about my journey and experiences.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4" id="lookbook">
+                <h2>Lookbook</h2>
+                <p>Check out my latest projects and designs.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4" id="flicks">
+                <h2>Flicks</h2>
+                <p>Watch my video content and creative works.</p>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
