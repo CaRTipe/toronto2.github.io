@@ -8,8 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <style>
+    * {
+        scroll-behavior: smooth;
+    }
+
     body {
         background-color: rgb(198, 203, 162);
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
     }
 
     #navbarNav {
@@ -40,6 +49,29 @@
     #lookbook,
     #flicks h2:hover {
         cursor: pointer;
+    }
+
+    .gap-card {
+        margin: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 12px;
+        padding: 20px;
+        background-color: rgb(198, 203, 162);
+    }
+
+    .gap-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2,
+    li,
+    p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h2 {
+        font-weight: 800;
     }
 </style>
 
@@ -83,25 +115,33 @@
     <div class="container-fluid mb-5" id="portfolio">
         <div class="row">
             <div class="col-12 text-center mt-5">
-                <h1>Welcome to My Portfolio</h1>
-                <p class="lead">Explore my work and connect with me!</p>
+                <h1 style="font-family: 'Courier New', Courier, monospace; font-weight: 800;">Welcome to My Portfolio</h1>
+                <p class="lead" style="font-family: 'Courier New', Courier, monospace; font-weight: 800;">Explore my work and connect with me!</p>
             </div>
         </div>
 
-        <div class="row mt-5 justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4" id="story">
-                <h2>My Story</h2>
+        < <div class="row mt-5 justify-content-center gx-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4 gap-card" id="story">
+                <a href="#story">
+                    <h2>My Story</h2>
+                </a>
                 <p>Learn about my journey and experiences.</p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4" id="lookbook">
-                <h2>Lookbook</h2>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4 gap-card" id="lookbook">
+                <a href="#lookbook">
+                    <h2>Lookbook</h2>
+                </a>
                 <p>Check out my latest projects and designs.</p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4" id="flicks">
-                <h2>Flicks</h2>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center mb-4 gap-card" id="flicks">
+                <a href="#flicks">
+                    <h2>Flicks</h2>
+                </a>
                 <p>Watch my video content and creative works.</p>
             </div>
-        </div>
+    </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
